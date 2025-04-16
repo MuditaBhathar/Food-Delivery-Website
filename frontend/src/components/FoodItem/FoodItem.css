@@ -2,9 +2,10 @@
     width: 100%;
     margin: auto;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px #00000015;
+    box-shadow: 0px 10px 20px #00000015;
     transition: 0.3s;
     animation: fadeIn 1s;
+    background-color: rgb(255, 255, 255);
 }
 
 .food-item-image{
@@ -38,7 +39,7 @@
 }
 
 .food-item-price{
-    color: tomato;
+    color: rgb(14, 103, 100);
     font-size: 22px;
     font-weight: 500;
     margin: 10px 0px;

@@ -1,8 +1,9 @@
 .navbar{
-    padding: 20px 0px;
+    padding: 20px 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 10px 20px #00000015;
 }
 
 .navbar .logo{
@@ -27,7 +28,7 @@
     background: transparent;
     font-size: 16px;
     color: #49557e;
-    border: 1px solid tomato;
+    border: 1px solid rgb(14, 103, 100);
     padding: 10px 30px;
     border-radius: 50px;
     cursor: pointer;
@@ -55,7 +56,7 @@ background-color: #fff4f2;
     position: absolute;
     min-width: 10px;
     min-height: 10px;
-    background-color: tomato;
+    background-color: rgb(14, 103, 100);
     border-radius: 5px;
     top: -8px;
     right: -8px;
@@ -79,7 +80,7 @@ background-color: #fff4f2;
     background-color: #fff2ef;
     padding: 12px 25px;
     border-radius: 4px;
-    border: 1px solid tomato;
+    border: 1px solid rgb(14, 103, 100);
     outline: 2px solid;
     list-style: none;
 }
@@ -89,7 +90,7 @@ background-color: #fff4f2;
 }
 
 .nav-profile-dropdown li:hover{
-    color: tomato;
+    color:rgb(14, 103, 100);
 }
 
 .nav-profile-dropdown li{
