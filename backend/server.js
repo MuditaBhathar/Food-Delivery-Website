@@ -13,7 +13,12 @@ const port = 4000
 
 // middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+  origin: "https://food-delivery-website-frontend-ksbq.onrender.com",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}));
+
 
 //db connection
 connectDB();
@@ -34,4 +39,5 @@ app.listen(port,()=>{
 })
 
 //mongodb+srv://dulanjalisenarathna93:E2JUb0zfaT2FVp8D@cluster0.exkxkun.mongodb.net/?
+
 //mongodb+srv://<db_username>:<db_password>@cluster0.la92twx.mongodb.net/
